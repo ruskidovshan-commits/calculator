@@ -1,3 +1,4 @@
+# This calculator was built with AI assistance
 import math
 
 
