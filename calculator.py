@@ -9,6 +9,11 @@ def square_root(num):
     return math.sqrt(num)
 
 
+def multiply(num1, num2):
+    """Multiply two numbers."""
+    return num1 * num2
+
+
 def calculate(num1, num2, operator):
     """Perform calculation based on operator."""
     operations = {
