@@ -14,6 +14,13 @@ def multiply(num1, num2):
     return num1 * num2
 
 
+def divide(num1, num2):
+    """Divide num1 by num2, handling division by zero."""
+    if num2 == 0:
+        return "Error: Division by zero"
+    return num1 / num2
+
+
 def calculate(num1, num2, operator):
     """Perform calculation based on operator."""
     operations = {
